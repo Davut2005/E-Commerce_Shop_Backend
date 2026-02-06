@@ -8,3 +8,8 @@ router = APIRouter(
 @router.get()
 def getCategories():
     pass
+
+
+@router.post()
+def addCategory():
+    pass

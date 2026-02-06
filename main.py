@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers import products, users, categories, reviews, orders, payments
+from routers import products, users, categories, reviews, orders, payments, deliveries
 from core.config import settings
 
 app = FastAPI()
@@ -10,6 +10,7 @@ app.include_router(categories)
 app.include_router(reviews)
 app.include_router(orders)
 app.include_router(payments)
+app.include_router(deliveries)
 
 if __name__ == "__main__" :
     import uvicorn

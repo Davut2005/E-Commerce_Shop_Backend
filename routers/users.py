@@ -8,3 +8,9 @@ router = APIRouter(
 @router.get()
 def getUsers():
     pass
+
+
+@router.post()
+def addUser():
+    pass
+

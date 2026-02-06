@@ -8,3 +8,8 @@ router = APIRouter(
 @router.get()
 def getOrders():
     pass
+
+
+@router.post()
+def addOrder():
+    pass

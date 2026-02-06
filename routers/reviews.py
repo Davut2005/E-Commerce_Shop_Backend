@@ -8,3 +8,7 @@ router = APIRouter(
 @router.get()
 def getReviews():
     pass
+
+@router.post()
+def addReviews():
+    pass

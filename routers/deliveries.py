@@ -1,15 +1,15 @@
 from fastapi import APIRouter
 
 router = APIRouter(
-    prefix="/payments",
-    tags=["payments"]
+    prefix="/deliveries",
+    tags=['deliveries']
 )
 
 @router.get()
-def getPayments():
+def getDeliveries():
     pass
 
 
 @router.post()
-def addPayment():
+def addDelivery():
     pass
